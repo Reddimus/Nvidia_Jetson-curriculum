@@ -2,7 +2,6 @@
 
 We will continue with the Hello AI World repository and follow the [Running the Docker Container](https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-docker.md) guide to run some tests including:
 
-
 ## Launching the video viewer application
 
 ![video-viewer](./images/video-viewer.gif)
