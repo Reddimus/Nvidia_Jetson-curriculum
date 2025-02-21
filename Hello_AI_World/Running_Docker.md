@@ -12,10 +12,10 @@ We will continue with the Hello AI World repository and follow the [Running the 
 
 ## Classify a jellyfish
 
-![jellyfish](./images/jellyfish.png)
-![classified-jellyfish](./images/classified-jellyfish.png)
+![jellyfish](./images/jellyfish.jpg)
+![classified-jellyfish](./images/classified-jellyfish.jpg)
 
 ## Detect objects in an image
 
-![multiple-people](./images/multiple-people.png)
-![detect-multiple-people](./images/detect-multiple-people.png)
+![multiple-people](./images/multiple-people.jpg)
+![detected-multiple-people](./images/detected-multiple-people.jpg)
