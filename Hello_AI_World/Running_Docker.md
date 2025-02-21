@@ -8,7 +8,7 @@ We will continue with the Hello AI World repository and follow the [Running the 
 
 ## Launching the video viewer application
 
-![video-viewer](./images/video-viewer.png)
+![video-viewer](./images/video-viewer.gif)
 
 ## Classify a jellyfish
 
