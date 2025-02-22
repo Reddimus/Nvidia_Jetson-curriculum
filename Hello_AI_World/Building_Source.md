@@ -15,3 +15,19 @@ sudo apt-get install git cmake libpython3-dev python3-numpy
 ## Build Steps
 
 Now follow [this guide](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md) to build the project(s) from source starting from the `Python Development Packages` section.
+
+Alternatively, you can use the following commands to build the project(s) from source assuming the `Hello_AI_World` repository is already cloned:
+
+```bash
+sudo apt-get update
+sudo apt install build-essential ninja-build 
+sudo apt-get install git cmake libpython3-dev python3-numpy
+git submodule update --init
+mkdir build
+cmake ../
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+```
+
+Now that we have built the project(s) from source, we can run the same test as before but let's run different projects instead. Please click [here]() to continue.
