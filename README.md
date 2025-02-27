@@ -7,7 +7,6 @@ This is a curriculum for learning how to use the Nvidia Jetson platform. This wi
 Visit the [NVIDIA Jetson Nano Getting Started Page](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit) and follow the instructions.
 
 > **Note:** For the Nvidia Jetson **Orin** Developer Kit, refer to the [Initial Setup Guide for Jetson Orin Nano Developer Kit](https://www.jetson-ai-lab.com/initial_setup_jon.html).
-
 > The Nvidia Jetson Nano 2GB Developer Kit may work for some projects, but the 4GB version is recommended.
 
 ### Setting Up Tools
