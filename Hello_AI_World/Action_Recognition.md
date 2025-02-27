@@ -16,3 +16,6 @@ Then after reading guide run the following command from the `Hello Ai World` rep
 ```
 
 > Note: The model skips frames by default, so the output video duration may be shorter.
+
+Next | [Background Removal](Background_Removal.md)  
+Previous | [Building from Source](Building_Source.md)
