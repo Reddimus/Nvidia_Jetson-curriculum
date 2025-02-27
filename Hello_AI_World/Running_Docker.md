@@ -24,5 +24,5 @@ Tests the imagenet application to classify an image.
 
 Test the detectnet application to detect and label multiple objects in an image.
 
-Next | [Building from Source](Building_Source.md)
+Next | [Building from Source](Building_Source.md)  
 Previous | [Hello AI World Hello World](./README.md)
