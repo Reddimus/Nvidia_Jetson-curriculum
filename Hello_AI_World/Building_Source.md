@@ -30,4 +30,7 @@ sudo make install
 sudo ldconfig
 ```
 
-Now that we have built the project(s) from source, we can run the same test as before but let's run different projects instead. Please click [here](Action_Recognition.md) to continue.
+Now that we have built the project(s) from source, we can run the same test as before but let's run different projects instead.
+
+Next | [Action Recognition](Action_Recognition.md)  
+Previous | [Running Docker Container](./Running_Docker.md)
