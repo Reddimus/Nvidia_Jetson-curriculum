@@ -12,7 +12,5 @@ Welcome to the [Hello AI World](https://github.com/dusty-nv/jetson-inference) pr
 - Follow the [Building the Project from Source](./Building_Source.md) document.
 - Learn how to configure tools like Nvidia-specific TensorFlow and use CMake for C++ projects.
 
-## Next Steps
-
-- Explore additional documentation in this repository.
-- Experiment with sample tests like video viewing, image classification, and object detection.
+Next | [Docker Setup](./Running_Docker.md)  
+Previous | [Curriculum Home](../README.md)
