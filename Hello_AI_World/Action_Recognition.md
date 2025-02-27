@@ -12,10 +12,10 @@ Then after reading guide run the following command from the `Hello Ai World` rep
 
 ```bash
 # Python
-./aarch64/bin/actionnet.py --skip-frames=0 og-tennis.mp4 an-tennis.mp4
+./aarch64/actionnet.py --skip-frames=0 og-tennis.mp4 an-tennis.mp4
 ```
 
-> Note: The model skips frames by default, so the output video duration may be shorter.
+The model skips frames by default, so the output video duration may be shorter. However, you will notice that the model is able to detect actions in the video and label it at the top.
 
 Next | [Background Removal](Background_Removal.md)  
 Previous | [Building from Source](Building_Source.md)
