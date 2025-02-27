@@ -5,11 +5,18 @@ Welcome to the [Hello AI World](https://github.com/dusty-nv/jetson-inference) pr
 ## 1. Docker Setup
 
 - Follow the [Running Docker Container](./Running_Docker.md) guide.
+  - This setup will have you run 2 pre-built models including:
+    1. Classsification
+    2. Object Detection
 - Docker simplifies dependency management and environment isolation.
 
 ## 2. Building from Source
 
 - Follow the [Building the Project from Source](./Building_Source.md) document.
+  - This setup will have you run 3 pre-built models including:
+    1. Action Recognition
+    2. Background Removal
+    3. Monocular Depth with DepthNet
 - Learn how to configure tools like Nvidia-specific TensorFlow and use CMake for C++ projects.
 
 Next | [Docker Setup](./Running_Docker.md)  
