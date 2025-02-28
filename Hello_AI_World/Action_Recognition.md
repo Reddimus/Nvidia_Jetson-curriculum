@@ -6,14 +6,17 @@ This demo uses a pre-trained AI model to detect human actions in video streams.
 
 Before starting, please ensure:
 
-- The [og-tennis.mp4](./images/og-tennis.mp4) video is placed in the root directory of the Hello_AI_World repository.
+- Place [og-tennis.mp4](./images/og-tennis.mp4) video into `build/aarch64/bin/images` in the repository. As reference after building from source, we should be in the `build` directory and the `build/aarch64/bin` directory should be present with many python files and `images` folder.
 
-Then after reading guide run the following command from the `Hello Ai World` repository root:
+Then after reading guide run the following commands:
 
 ```bash
+cd aarch64/bin
 # Python
-./aarch64/actionnet.py --skip-frames=0 og-tennis.mp4 an-tennis.mp4
+./actionnet.py --skip-frames=0 images/og-tennis.mp4 images/test/ar-tennis-action.mp4
 ```
+
+After running the action net demo, you should see the `an-tennis-action.mp4` video in `build/aarch64/bin/images/test` folder.
 
 The model skips frames by default, so the output video duration may be shorter. However, you will notice that the model is able to detect actions in the video and label it at the top.
 
