@@ -51,3 +51,6 @@ Visit the [NVIDIA Jetson Nano Getting Started Page](https://developer.nvidia.com
 ## Projects
 
 1. [Hello AI World](./Hello_AI_World/README.md)
+2. []()
+
+Throughout these projects, you will demo pre-trained models. It is strongly recommended to multi task and run different models in parallel with multiple terminal windows.
