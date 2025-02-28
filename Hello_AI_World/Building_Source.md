@@ -25,6 +25,7 @@ sudo apt-get install git cmake libpython3-dev python3-numpy
 git submodule update --init
 mkdir build
 cd build
+# ./install-pytorch.sh
 cmake ../
 make -j$(nproc)
 sudo make install
