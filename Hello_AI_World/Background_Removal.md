@@ -7,7 +7,7 @@ In this section, learn how to remove or replace the background of an image or vi
 Ensure you are in the correct directory where the repository was built from source.
 
 ```bash
-cd aarch64/bin
+cd build/aarch64/bin
 ```
 
 Remove the following image background.
@@ -31,10 +31,8 @@ The output images will be saved in the `images/test` directory.
 Ensure your webcam is connected. The model may take several minutes to download and compile on first run.
 
 ```bash
-./aarch64/bin/backgroundnet /dev/video0 # remove the background
+./backgroundnet.py /dev/video0 # remove the background
 ```
-
-> Note: Run these commands from the repository root after building from source.
 
 Next | [Monocular Depth with DepthNet](Monocular_Depth.md)  
 Previous | [Action Recognition](Action_Recognition.md)
