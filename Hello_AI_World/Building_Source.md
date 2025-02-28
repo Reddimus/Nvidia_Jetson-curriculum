@@ -24,6 +24,7 @@ sudo apt install build-essential ninja-build
 sudo apt-get install git cmake libpython3-dev python3-numpy
 git submodule update --init
 mkdir build
+cd build
 cmake ../
 make -j$(nproc)
 sudo make install
