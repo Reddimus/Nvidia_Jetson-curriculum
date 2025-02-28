@@ -4,7 +4,7 @@ In this section, learn how to estimate depth from a image(s) using a pre-trained
 
 ## Mono Depth on images
 
-Ensure you are in the correct directory (`cd aarch64/bin`) before executing the command:
+Ensure you are in the correct directory (`cd build/aarch64/bin`) before executing the command:
 
 ```bash
 ./depthnet.py "images/room_*.jpg" images/test/depth_room_%i.jpg
