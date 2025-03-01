@@ -4,8 +4,8 @@ Welcome to the [Hello AI World](https://github.com/dusty-nv/jetson-inference) pr
 
 There are two primary methods to run pre-trained models and applications in this repository:
 
-1. Building from source
-2. Running the Docker container
+1. Running the Docker container
+2. Building the project from source
 
 You will become familiar with both methods throughout this curriculum, as they are commonly used in open-source Nvidia Jetson projects.
 
