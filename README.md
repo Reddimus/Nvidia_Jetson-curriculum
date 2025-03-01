@@ -4,10 +4,12 @@ This is a curriculum for learning how to use the Nvidia Jetson platform. This wi
 
 ## Getting Started
 
-Visit the [NVIDIA Jetson Nano Getting Started Page](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit) and follow the instructions.
+Visit the [NVIDIA Jetson Nano Getting Started Page](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit) and follow the first 4 instructions:
 
-> **Note:** For the Nvidia Jetson **Orin** Developer Kit, refer to the [Initial Setup Guide for Jetson Orin Nano Developer Kit](https://www.jetson-ai-lab.com/initial_setup_jon.html).
-> The Nvidia Jetson Nano 2GB Developer Kit may work for some projects, but the 4GB version is recommended.
+1. [Introduction](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro)
+2. [Prepare for Setup](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#prepare)
+3. [Write Image to the microSD Card](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)
+4. [Setup and First Boot](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#setup)
 
 ### Setting Up Tools
 
@@ -53,4 +55,4 @@ Visit the [NVIDIA Jetson Nano Getting Started Page](https://developer.nvidia.com
 1. [Hello AI World](./Hello_AI_World/README.md)
 2. []()
 
-Throughout these projects, you will demo pre-trained models. It is strongly recommended to multi task and run different models in parallel with multiple terminal windows.
+Throughout these projects, you will demo pre-trained models. It is strongly recommended to multi task and run different models in parallel with multiple terminal windows to save time.
