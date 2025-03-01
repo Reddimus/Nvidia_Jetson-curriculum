@@ -1,6 +1,6 @@
 # [Hello AI World](https://github.com/dusty-nv/jetson-inference)
-  
-Welcome to the [Hello AI World](https://github.com/dusty-nv/jetson-inference) project! [This repository](https://github.com/dusty-nv/jetson-inference) demonstrates basic AI applications on the Nvidia Jetson platform. This is a comprehensive guide however we will focus on the key setup to make sure your Nvidia Jetson developer tools are working well.
+
+Welcome to the [Hello AI World](https://github.com/dusty-nv/jetson-inference) project! This curriculum simplifies running AI applications on the Nvidia Jetson platform using the [Hello AI World](https://github.com/dusty-nv/jetson-inference) repository. Consider this a streamlined guide to the original repository.
 
 There are two primary methods to run pre-trained models and applications in this repository:
 
