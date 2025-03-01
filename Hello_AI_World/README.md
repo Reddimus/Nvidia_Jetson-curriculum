@@ -26,5 +26,17 @@ You will become familiar with both methods throughout this curriculum, as they a
     3. [Monocular Depth with DepthNet](./Monocular_Depth.md)
 - Learn how to configure tools like Nvidia-specific TensorFlow and use CMake for C++ projects.
 
+## Clone the Repository
+
+Now that you have an overview of the project, let's clone the repository to your Jetson device. This will allow you to run the pre-built models and applications.
+
+```bash
+# With a new terminal window, clone the repository
+git clone --recursive --depth=1 https://github.com/dusty-nv/jetson-inference
+cd jetson-inference
+```
+
+Great! We are now ready to start running the pre-built models and applications.
+
 Next | [Docker Setup](./Running_Docker.md)  
 Previous | [Curriculum Home](../README.md)
