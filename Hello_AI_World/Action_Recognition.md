@@ -4,7 +4,7 @@ After building from source, follow [this guide](https://github.com/dusty-nv/jets
 
 ## Quick start
 
-This demo uses a pre-trained AI model to detect human actions in video streams.
+This demo uses a pre-trained AI model to detect human actions in video streams. Here is a quick run-through of the steps to get through this guide easily:
 
 Before starting, please ensure:
 
