@@ -2,7 +2,11 @@
 
 In this section, learn how to estimate depth from a image(s) using a pre-trained AI model. Refer to [this guide](https://github.com/dusty-nv/jetson-inference/blob/master/docs/depthnet.md) to follow along.
 
-## Mono Depth on images
+## Quick Start
+
+Here is a quick run-through of the steps to get through this guide easily:
+
+### Mono Depth on images
 
 Ensure you are in the correct directory (`cd build/aarch64/bin`) before executing the command:
 
@@ -14,7 +18,7 @@ Ensure you are in the correct directory (`cd build/aarch64/bin`) before executin
 
 The output images will be saved in the `images/test` directory.
 
-## Mono Depth from Webcam
+### Mono Depth from Webcam
 
 Make sure your webcam is connected. The model may take several minutes to download and compile on first run.
 
