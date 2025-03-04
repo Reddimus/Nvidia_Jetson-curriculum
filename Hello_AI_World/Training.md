@@ -14,7 +14,7 @@ If PyTorch is not installed dont worry we can install it now in the `build` dire
 ./install-pytorch.sh
 ```
 
-> Note: If you are still having trouble installing PyTorch, please run `sudo pip3 install -U pip` and `sudo pip3 install -U cython` and then try again.
+> Note: If you are still having trouble installing PyTorch, please run `sudo pip3 install -U pip`, `sudo pip3 install -U cython`, `pip install pillow==6.2.2` and then try again.
 
 Let's verify that PyTorch is installed and working:
 
