@@ -156,6 +156,8 @@ Then run the script with the following command:
 python3 depthtest.py /dev/video0
 ```
 
+You should see the picture from your webcam and the depth map generated. The images will be saved in the `images/test` directory of the `build/aarch64/bin` directory.
+
 Trying to measure absolute distances using mono depth can lead to inaccuracies as it's typically more effective at relative depth estimation.  The range of values in the raw depth field can vary depending on the scene, so these are often re-calculated dynamically.  For example, during visualization histogram equalization is performed on the depth field to distribute the colormap more evenly across the range of depth values.
 
 ### Understanding the depthtest.py Script
