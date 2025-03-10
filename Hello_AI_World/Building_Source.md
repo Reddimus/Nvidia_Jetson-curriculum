@@ -21,15 +21,18 @@ If the `build/aarch64/bin` already exists with many python files, you can skip t
 Alternatively, you can use the following commands to build the project(s) from source assuming the `Hello_AI_World` repository is already cloned:
 
 ```bash
-sudo apt-get update
-sudo apt install -y build-essential ninja-build
-sudo apt-get install git cmake libpython3-dev python3-numpy
 git submodule update --init
 mkdir build
 cd build
+```
+
+```bash
 cmake ../
 make -j$(nproc)
 sudo make install
+```
+
+```bash
 sudo ldconfig
 ```
 
