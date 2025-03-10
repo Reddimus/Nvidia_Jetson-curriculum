@@ -16,6 +16,8 @@ sudo apt-get install git cmake libpython3-dev python3-numpy
 
 Now follow [this guide](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md) to build the project(s) from source starting from the `Python Development Packages` section.
 
+If the `build/aarch64/bin` already exists with many python files, you can skip the `Building the Project from Source` section and proceed to the next section.
+
 Alternatively, you can use the following commands to build the project(s) from source assuming the `Hello_AI_World` repository is already cloned:
 
 ```bash
