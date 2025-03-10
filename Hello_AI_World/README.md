@@ -28,7 +28,7 @@ You will become familiar with both methods throughout this curriculum, as they a
 
 ## Clone the Repository
 
-Now that you have an overview of the project, let's clone the repository to your Jetson device. This will allow you to run the pre-built models and applications.
+Now that you have an overview of the project, let's clone the repository to your Jetson device. This will allow you to run the pre-built models and applications. The repository may already be installed on your device, please check from the `home` directory if `repo/jetson-inference` exists.
 
 ```bash
 # With a new terminal window, clone the repository
