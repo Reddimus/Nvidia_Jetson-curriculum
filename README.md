@@ -11,6 +11,8 @@ Visit the [NVIDIA Jetson Nano Getting Started Page](https://developer.nvidia.com
 3. [Write Image to the microSD Card](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)
 4. [Setup and First Boot](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#setup)
 
+    - During this step you may be asked to setup the power management mode. Choose the default option (5W) for now.
+
 ### Setting Up Tools
 
 1. **Install Git**  
@@ -49,6 +51,8 @@ Visit the [NVIDIA Jetson Nano Getting Started Page](https://developer.nvidia.com
 
 3. **Setup VNC**  
    VNC provides remote desktop access via the RFB protocol, allowing you to control your Jetson from your laptop. Follow [this guide](https://developer.nvidia.com/embedded/learn/tutorials/vnc-setup) for detailed instructions.
+
+> NOTE: Avoid scripts and commands that use `sudo apt upgrade` as it may break the Jetson platform.
 
 ## Projects
 
