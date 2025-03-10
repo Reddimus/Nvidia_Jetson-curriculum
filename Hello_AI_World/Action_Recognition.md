@@ -1,6 +1,6 @@
 # [Action Recognition](https://github.com/dusty-nv/jetson-inference/blob/master/docs/actionnet.md)
 
-After building from source, follow [this guide](https://github.com/dusty-nv/jetson-inference/blob/master/docs/actionnet.md) to set up action recognition.
+After building from source, you can follow [this guide](https://github.com/dusty-nv/jetson-inference/blob/master/docs/actionnet.md) if you would like. However, we will be summarizing the steps down below in the Quick Start section.
 
 ## Quick start
 
@@ -10,7 +10,11 @@ Before starting, please ensure:
 
 - The [og-tennis.mp4](./images/og-tennis.mp4) video is placed in `build/aarch64/bin/images` directory of the Hello_AI_World repository.
 
-Then after reading guide run the following command from the `build/aarch64/bin` directory of the Hello_AI_World repository:
+Then run the following command from the `build/aarch64/bin` directory of the Hello_AI_World repository:
+
+```bash
+cd aarch64/bin
+```
 
 ```bash
 # Python
