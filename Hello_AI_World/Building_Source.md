@@ -8,7 +8,7 @@ Before building, exit any Docker container (`exit`) and install dependencies:
 
 ```bash
 sudo apt-get update
-sudo apt install build-essential ninja-build 
+sudo apt install -y build-essential ninja-build
 sudo apt-get install git cmake libpython3-dev python3-numpy
 ```
 
@@ -20,7 +20,7 @@ Alternatively, you can use the following commands to build the project(s) from s
 
 ```bash
 sudo apt-get update
-sudo apt install build-essential ninja-build 
+sudo apt install -y build-essential ninja-build
 sudo apt-get install git cmake libpython3-dev python3-numpy
 git submodule update --init
 mkdir build
